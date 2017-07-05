@@ -1,0 +1,39 @@
+PODS:
+  - HandyFrame (1.1.1)
+  - MJRefresh (3.1.12)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - HandyFrame (from `https://github.com/casatwy/HandyAutoLayout.git`, tag `1.1.1`)
+  - MJRefresh
+  - ReactiveCocoa (~> 2.5)
+  - SDWebImage
+
+EXTERNAL SOURCES:
+  HandyFrame:
+    :git: https://github.com/casatwy/HandyAutoLayout.git
+    :tag: 1.1.1
+
+CHECKOUT OPTIONS:
+  HandyFrame:
+    :git: https://github.com/casatwy/HandyAutoLayout.git
+    :tag: 1.1.1
+
+SPEC CHECKSUMS:
+  HandyFrame: 4e95cc495e84e91f9434fe316f992ba4ee713e3a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: ce57b82bc6259aa4adac70bb41bfd3914febf68c
+
+COCOAPODS: 1.2.1
